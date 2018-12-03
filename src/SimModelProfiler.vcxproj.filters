@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SimModel">
+      <UniqueIdentifier>{952ec774-1ca4-4fa1-a283-7c475a5fe2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModel\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SimModel\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FuncParser">
+      <UniqueIdentifier>{6351a976-1d20-4d77-b7c9-bc919ce4dcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModelSolverBase">
+      <UniqueIdentifier>{130822b1-6ec0-42fa-989b-92dce9269b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysTool">
+      <UniqueIdentifier>{23a5abfe-7d61-426f-b258-a5c69057dfb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLWrapper">
+      <UniqueIdentifier>{0b4dab6f-d997-4262-a224-ea2feaaaac1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FuncParser\Header Files">
+      <UniqueIdentifier>{2b1a0104-22d8-4f6f-82dc-b2510cf20b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLWrapper\Header Files">
+      <UniqueIdentifier>{4e132e0d-df1b-4e6d-9e5e-3c2a2f649846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysTool\Header Files">
+      <UniqueIdentifier>{89d84bd1-5c4f-48c2-90ce-836b5bbe8905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModelSolverBase\Header Files">
+      <UniqueIdentifier>{f3097fbf-7c69-468b-a308-bcf533b2e8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModelProfiler">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="SimModelProfiler\Header Files">
+      <UniqueIdentifier>{3bd29b0e-cbe3-4343-8ca9-282441db93ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FuncParser\Source Files">
+      <UniqueIdentifier>{fd4fb4dc-a473-4572-83b3-183ed0c6d6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLWrapper\Source Files">
+      <UniqueIdentifier>{1086ca35-de84-4039-8227-82253984657c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SysTool\Source Files">
+      <UniqueIdentifier>{513690dc-8532-4f0c-bba4-9b63ada9eeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModelSolverBase\Source Files">
+      <UniqueIdentifier>{a04b6247-f140-4748-87db-955e88719906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimModelProfiler\Source Files">
+      <UniqueIdentifier>{ff604247-6e8c-4cc5-abf6-bd816e362e50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\BandwidthReduction.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\BooleanFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ConstantFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\CppODEExporter.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DESolver.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DESolverProperties.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DiffFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DivFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ExplicitFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Formula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\FormulaChange.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\FormulaFactory.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\GlobalConstants.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\HierarchicalFormulaObject.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\IfFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MathHelper.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MatlabODEExporter.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MaxFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MinFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ObjectBase.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Observer.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\OutputSchema.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Parameter.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterInfo.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterSensitivity.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\PowerFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ProductFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Quantity.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityInfo.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityReference.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityWithParameterSensitivity.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Rcm.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimpleProductFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Simulation.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimulationOptions.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimulationTask.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SolverWarning.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Species.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SpeciesInfo.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SumFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Switch.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SwitchTask.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormulaWithOffset.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormulaWithXArgument.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\UnaryFunctionFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Variable.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\VariableFormula.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\VariableWithParameterSensitivity.cpp">
+      <Filter>SimModel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Constant.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Constants.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\DimensionInfo.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\DimensionParser.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\ElemFunction.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncNode.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncParser.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncParserErrorData.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Math.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\ParsedFunction.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\QuantityDimensionInfo.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\StringHelper.cpp">
+      <Filter>FuncParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\WindowsHelper.cpp">
+      <Filter>XMLWrapper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLCache.cpp">
+      <Filter>XMLWrapper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLDocument.cpp">
+      <Filter>XMLWrapper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLHelper.cpp">
+      <Filter>XMLWrapper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLNode.cpp">
+      <Filter>XMLWrapper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\DynamicLibrary.cpp">
+      <Filter>SysTool\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\ErrorData.cpp">
+      <Filter>SysTool\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\FileSystem.cpp">
+      <Filter>SysTool\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\getline.cpp">
+      <Filter>SysTool\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\OptionInfo.cpp">
+      <Filter>SimModelSolverBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\OptionValueInfo.cpp">
+      <Filter>SimModelSolverBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\SimModelSolverBase.cpp">
+      <Filter>SimModelSolverBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\SimModelSolverErrorData.cpp">
+      <Filter>SimModelSolverBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelpFunctions.cpp">
+      <Filter>SimModelProfiler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestSimModelCPP.cpp">
+      <Filter>SimModelProfiler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ElemFunctions.cpp">
+      <Filter>SimModelProfiler\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\BandwidthReduction.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\BooleanFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ConstantFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\CppODEExporter.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DESolver.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DESolverProperties.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DiffFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DivFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ExplicitFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Formula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\FormulaChange.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\FormulaFactory.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\GlobalConstants.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\HierarchicalFormulaObject.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\IfFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MathHelper.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MatlabODEExporter.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MaxFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MinFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ObjectBase.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Observer.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\OutputSchema.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Parameter.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterInfo.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterSensitivity.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\PowerFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ProductFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Quantity.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityInfo.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityReference.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityWithParameterSensitivity.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Rcm.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimModelTypeDefs.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimModelXMLHelper.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimpleProductFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Simulation.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimulationOptions.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimulationTask.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SolverWarning.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Species.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SpeciesInfo.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SumFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Switch.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SwitchTask.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormulaWithOffset.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormulaWithXArgument.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TObjectList.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TObjectVector.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\UnaryFunctionFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Variable.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\VariableFormula.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\VariableWithParameterSensitivity.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\XMLLoader.h">
+      <Filter>SimModel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Constant.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Constants.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\DimensionInfo.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\DimensionParser.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ElemFunction.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ElemFunctions.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncNode.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParser.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParserErrorData.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParserTypeDefs.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Math.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ParsedFunction.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\QuantityDimensionInfo.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\StringHelper.h">
+      <Filter>FuncParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\WindowsHelper.h">
+      <Filter>XMLWrapper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLCache.h">
+      <Filter>XMLWrapper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLDocument.h">
+      <Filter>XMLWrapper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLHelper.h">
+      <Filter>XMLWrapper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLNode.h">
+      <Filter>XMLWrapper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\DynamicLibrary.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\ErrorData.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\FileSystem.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\stdint.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\strncasecmp.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\SysToolConfig.h">
+      <Filter>SysTool\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\OptionInfo.h">
+      <Filter>SimModelSolverBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\OptionValueInfo.h">
+      <Filter>SimModelSolverBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\SimModelSolverBase.h">
+      <Filter>SimModelSolverBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\SimModelSolverErrorData.h">
+      <Filter>SimModelSolverBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SolverCallerInterface\SolverCaller.h">
+      <Filter>SimModelSolverBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>SimModelProfiler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\targetver.h">
+      <Filter>SimModelProfiler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestSimModel.h">
+      <Filter>SimModelProfiler\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

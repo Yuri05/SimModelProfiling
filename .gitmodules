@@ -1,0 +1,15 @@
+[submodule "OSPSuite.SimModel"]
+	path = OSPSuite.SimModel
+	url = https://github.com/Open-Systems-Pharmacology/OSPSuite.SimModel.git
+[submodule "DCI"]
+	path = DCI
+	url = https://github.com/Open-Systems-Pharmacology/DCI.git
+[submodule "OSPSuite.SimModelSolverBase"]
+	path = OSPSuite.SimModelSolverBase
+	url = https://github.com/Open-Systems-Pharmacology/OSPSuite.SimModelSolverBase.git
+[submodule "OSPSuite.SimModel.Schema"]
+	path = OSPSuite.SimModel.Schema
+	url = https://github.com/Open-Systems-Pharmacology/OSPSuite.SimModel.Schema.git
+[submodule "OSPSuite.FuncParser"]
+	path = OSPSuite.FuncParser
+	url = https://github.com/Open-Systems-Pharmacology/OSPSuite.FuncParser.git

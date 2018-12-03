@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A51B0045-1113-4B4E-B3D9-6D2BA0362B2D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;SIMMODEL_EXPORTS;WIN32_PRODUCTION;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Include;$(ProjectDir)..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include;$(ProjectDir)..\OSPSuite.SimModel\src\DCI\includes;$(ProjectDir)..\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SysTool\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModelComp\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <CompileAsManaged>false</CompileAsManaged>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <OpenMPSupport>false</OpenMPSupport>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>DCI6_1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\DCI\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <FixedBaseAddress>false</FixedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)..\DCI\x86\*.* $(OutDir)
+copy $(SolutionDir)..\OSPSuite.SimModel.Schema\*.xsd $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)Include;$(ProjectDir)..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include;$(ProjectDir)..\OSPSuite.SimModel\src\DCI\includes;$(ProjectDir)..\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SysTool\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModelComp\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DCI6_1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\DCI\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <FixedBaseAddress>false</FixedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)..\DCI\x86\*.* $(OutDir)
+copy $(SolutionDir)..\OSPSuite.SimModel.Schema\*.xsd $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Include;$(ProjectDir)..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include;$(ProjectDir)..\OSPSuite.SimModel\src\DCI\includes;$(ProjectDir)..\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SysTool\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModelComp\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;SIMMODEL_EXPORTS;WIN32_PRODUCTION;ReleaseX64;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\DCI\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <FixedBaseAddress>false</FixedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)..\DCI\x64\*.* $(OutDir)
+copy $(SolutionDir)..\OSPSuite.SimModel.Schema\*.xsd $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Include;$(ProjectDir)..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include;$(ProjectDir)..\OSPSuite.SimModel\src\DCI\includes;$(ProjectDir)..\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SysTool\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModelComp\include;$(ProjectDir)..\OSPSuite.SimModel\src\OSPSuite.SimModel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;SIMMODEL_EXPORTS;_WINDOWS_PRODUCTION;ReleaseX64;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DCI6_1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\DCI\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <FixedBaseAddress>false</FixedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)..\DCI\x64\*.* $(OutDir)
+copy $(SolutionDir)..\OSPSuite.SimModel.Schema\*.xsd $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Constant.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Constants.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\DimensionInfo.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\DimensionParser.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\ElemFunction.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncNode.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncParser.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\FuncParserErrorData.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\Math.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\ParsedFunction.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\QuantityDimensionInfo.cpp" />
+    <ClCompile Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\src\StringHelper.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\OptionInfo.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\OptionValueInfo.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\SimModelSolverBase.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\src\SimModelSolverErrorData.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\BandwidthReduction.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\BooleanFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ConstantFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\CppODEExporter.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DESolver.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DESolverProperties.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DiffFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\DivFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ExplicitFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Formula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\FormulaChange.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\FormulaFactory.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\GlobalConstants.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\HierarchicalFormulaObject.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\IfFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MathHelper.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MatlabODEExporter.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MaxFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\MinFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ObjectBase.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Observer.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\OutputSchema.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Parameter.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterInfo.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ParameterSensitivity.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\PowerFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\ProductFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Quantity.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityInfo.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityReference.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\QuantityWithParameterSensitivity.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Rcm.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimpleProductFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Simulation.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimulationOptions.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SimulationTask.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SolverWarning.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Species.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SpeciesInfo.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SumFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Switch.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\SwitchTask.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormulaWithOffset.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\TableFormulaWithXArgument.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\UnaryFunctionFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\Variable.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\VariableFormula.cpp" />
+    <ClCompile Include="..\ospsuite.simmodel\src\ospsuite.simmodel\src\VariableWithParameterSensitivity.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\DynamicLibrary.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\ErrorData.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\FileSystem.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\src\getline.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\WindowsHelper.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLCache.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLDocument.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLHelper.cpp" />
+    <ClCompile Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\src\XMLNode.cpp" />
+    <ClCompile Include="src\ElemFunctions.cpp" />
+    <ClCompile Include="src\HelpFunctions.cpp" />
+    <ClCompile Include="src\TestSimModelCPP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Constant.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Constants.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\DimensionInfo.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\DimensionParser.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ElemFunction.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ElemFunctions.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncNode.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParser.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParserErrorData.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\FuncParserTypeDefs.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\Math.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\ParsedFunction.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\QuantityDimensionInfo.h" />
+    <ClInclude Include="..\OSPSuite.FuncParser\src\OSPSuite.FuncParser\include\FuncParser\StringHelper.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\OptionInfo.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\OptionValueInfo.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\SimModelSolverBase.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SimModelSolverBase\SimModelSolverErrorData.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SimModelSolverBase\src\OSPSuite.SimModelSolverBase\include\SolverCallerInterface\SolverCaller.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\BandwidthReduction.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\BooleanFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ConstantFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\CppODEExporter.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DESolver.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DESolverProperties.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DiffFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\DivFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ExplicitFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Formula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\FormulaChange.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\FormulaFactory.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\GlobalConstants.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\HierarchicalFormulaObject.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\IfFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MathHelper.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MatlabODEExporter.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MaxFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\MinFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ObjectBase.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Observer.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\OutputSchema.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Parameter.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterInfo.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ParameterSensitivity.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\PowerFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\ProductFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Quantity.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityInfo.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityReference.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\QuantityWithParameterSensitivity.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Rcm.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimModelTypeDefs.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimModelXMLHelper.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimpleProductFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Simulation.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimulationOptions.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SimulationTask.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SolverWarning.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Species.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SpeciesInfo.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SumFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Switch.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\SwitchTask.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormulaWithOffset.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TableFormulaWithXArgument.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TObjectList.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\TObjectVector.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\UnaryFunctionFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\Variable.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\VariableFormula.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\VariableWithParameterSensitivity.h" />
+    <ClInclude Include="..\ospsuite.simmodel\src\ospsuite.simmodel\include\simmodel\XMLLoader.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\DynamicLibrary.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\ErrorData.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\FileSystem.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\stdint.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\strncasecmp.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.SysTool\include\SysToolConfig.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\WindowsHelper.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLCache.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLDocument.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLHelper.h" />
+    <ClInclude Include="..\OSPSuite.SimModel\src\OSPSuite.XMLWrapper\include\XMLWrapper\XMLNode.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\targetver.h" />
+    <ClInclude Include="include\TestSimModel.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
